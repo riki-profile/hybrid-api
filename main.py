@@ -102,3 +102,9 @@ def updateLocation(id:int, location:str):
     return {
         'msg' : "Data has been updated !"
     }
+
+@app.get("/test")
+def testBaru():
+    return {
+        'msg':'Ini update function'
+    }
